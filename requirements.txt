@@ -1,0 +1,13 @@
+crewai==0.41.0
+tavily-python
+langchain
+langchain-community
+langchain_openai
+unstructured==0.16.14
+unstructured[pdf]
+faiss-cpu==1.9.0.post1
+streamlit==1.41.1
+PyPDF2==3.0.1
+rich
+
+
