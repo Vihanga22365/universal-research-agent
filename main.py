@@ -9,6 +9,9 @@ from crewai import Agent, Task, Crew, Process
 from crewai.tasks.task_output import TaskOutput
 import re
 
+package__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 load_dotenv()
